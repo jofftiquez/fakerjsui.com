@@ -56,7 +56,7 @@ import { useHead } from '#app';
 import { definePageMeta } from '#imports';
 import { faker } from '@faker-js/faker';
 import GenericPanel from '~/components/commons/GenericPanel';
-import ogBanner from '../assets/images/fakerjsui-og-banner.png';
+import ogBanner from '../assets/images/fakerjsui-og-banner.jpg';
 
 export default {
   components: {
