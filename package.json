@@ -46,8 +46,8 @@
     "postcss-custom-properties": "^13.1.5",
     "v-smooth-scroll": "^2.0.0-beta.2"
   },
-  "name": "Faker.js UI Website",
-  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "name": "fakerjsui.com",
+  "description": "Faker.js UI",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "repository": {
