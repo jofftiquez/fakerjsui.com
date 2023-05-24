@@ -69,7 +69,7 @@ export default {
 
     useHead({
       title: 'Faker.js UI by Joff Tiquez',
-      description: 'Use Faker.js UI to easiliy generate fake (but realistic) data for testing and development using Faker.js',
+      description: 'Use Faker.js UI to easily generate fake (but realistic) data for testing and development using Faker.js',
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       ],
