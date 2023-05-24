@@ -12,22 +12,24 @@
             "{{fakeData}}"
           </i>
         </p>
-        <div class="space-x-5">
-
+        <div class="flex space-x-5">
           <a
             href="https://app.fakerjsui.com?ref=https://fakerjsui.com"
             target="_blank"
             data-aos="fade-down"
             data-aos-delay="600"
-            class="btn btn-md md:btn-lg btn-primary"
+            class="btn btn-primary"
           >
             Start Faking 👀
           </a>
           <div class="tooltip" data-tip="Coming soon to Chrome Extension!">
-            <button data-aos="fade-down" data-aos-delay="600" class="btn btn-md md:btn-lg btn-outline btn-disabled">
+            <button data-aos="fade-down" data-aos-delay="600" class="btn btn-outline btn-disabled">
               Download <i class="lab la-chrome text-2xl ml-2"></i>
             </button>
           </div>
+          <a href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
+            <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=396136&theme=neutral" alt="Faker&#0046;js&#0032;UI - Simple&#0032;and&#0032;intuitive&#0032;UI&#0032;for&#0032;Faker&#0046;js | Product Hunt" style="height: 46px;" height="46" />
+          </a>
         </div>
       </div>
       <div data-aos="fade-down" class="flex justify-center md:justify-end order-1 md:order-2 mt-10 md:mt-0">
