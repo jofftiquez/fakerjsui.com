@@ -14,13 +14,12 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install Yarn
         run: npm install yarn@latest -g
-      - name: Install Firebase Tools
-        run: npm install firebase-tools -g
-      - name: Install dependencies
+      - name: Install Dependencies
         run: yarn
-      - name: Run build
+      - name: Run Generate
         run: yarn generate
-      - name: Run deploy
+        env:
+          API_URL: none
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
