@@ -1,11 +1,17 @@
 {
   "hosting": {
-    "site": "web-main",
+    "site": "faker-js-ui",
     "public": ".output/public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }

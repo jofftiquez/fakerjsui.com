@@ -11,8 +11,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "yarn deploy:functions && yarn deploy:hosting",
-    "deploy:functions": "firebase deploy --only functions:nuxtSSRHandler -P hippocrades-blockchain --force",
-    "deploy:hosting": "firebase deploy --only hosting -P hippocrades-blockchain --force"
+    "deploy:functions": "firebase deploy --only functions:nuxtSSRHandler -P faker-js-ui --force",
+    "deploy:hosting": "firebase deploy --only hosting -P faker-js-ui --force"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
@@ -46,18 +46,18 @@
     "postcss-custom-properties": "^13.1.5",
     "v-smooth-scroll": "^2.0.0-beta.2"
   },
-  "name": "nuxt-tailwind-template",
+  "name": "Faker.js UI Website",
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "1.0.0",
   "main": ".eslintrc.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mycurelabs/nuxt-tailwind-template.git"
+    "url": "git+https://github.com/jofftiquez/fakerjsui.com.git"
   },
   "author": "Joff Tiquez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mycurelabs/nuxt-tailwind-template/issues"
+    "url": "https://github.com/jofftiquez/fakerjsui.com/issues"
   },
-  "homepage": "https://github.com/mycurelabs/nuxt-tailwind-template#readme"
+  "homepage": "https://github.com/jofftiquez/fakerjsui.com#readme"
 }
