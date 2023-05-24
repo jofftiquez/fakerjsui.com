@@ -17,7 +17,7 @@
             href="https://app.fakerjsui.com?ref=https://fakerjsui.com"
             target="_blank"
             data-aos="fade-down"
-            data-aos-delay="600"
+            data-aos-delay="400"
             class="btn btn-primary"
           >
             Start Faking 👀
@@ -27,7 +27,7 @@
               Download <i class="lab la-chrome text-2xl ml-2"></i>
             </button>
           </div>
-          <a href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
+          <a data-aos="fade-down" data-aos-delay="800" href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
             <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=396136&theme=neutral" alt="Faker&#0046;js&#0032;UI - Simple&#0032;and&#0032;intuitive&#0032;UI&#0032;for&#0032;Faker&#0046;js | Product Hunt" style="height: 46px;" height="46" />
           </a>
         </div>
