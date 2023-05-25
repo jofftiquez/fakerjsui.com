@@ -7,12 +7,12 @@
           Use Faker.js UI to easiliy generate fake (but realistic) data for testing and development using
           <a class="text-purple-500" href="https://fakerjs.dev/?ref=https://fakerjsui.com" target="_blank">Faker.js</a>.
         </p>
-        <p data-aos="fade-down" data-aos-delay="400" class="text-lg mb-10">
+        <p data-aos="fade-down" data-aos-delay="400" class="text-lg mb-10 h-[100px]">
           <i>
             "{{fakeData}}"
           </i>
         </p>
-        <div class="flex space-x-5">
+        <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-0 md:space-x-5">
           <a
             href="https://app.fakerjsui.com?ref=https://fakerjsui.com"
             target="_blank"
@@ -23,13 +23,19 @@
             Start Faking 👀
           </a>
           <div class="tooltip" data-tip="Coming soon to Chrome Extension!">
-            <button data-aos="fade-down" data-aos-delay="600" class="btn btn-outline btn-disabled">
+            <button data-aos="fade-down" data-aos-delay="600" class="btn btn-outline btn-disabled btn-block">
               Download <i class="lab la-chrome text-2xl ml-2"></i>
             </button>
           </div>
-          <a data-aos="fade-down" data-aos-delay="800" href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
-            <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=396136&theme=neutral" alt="Faker&#0046;js&#0032;UI - Simple&#0032;and&#0032;intuitive&#0032;UI&#0032;for&#0032;Faker&#0046;js | Product Hunt" style="height: 46px;" height="46" />
-          </a>
+          <div class="flex justify-center">
+            <a data-aos="fade-down" data-aos-delay="800" href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
+              <img
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=396136&theme=neutral"
+                alt="Faker&#0046;js&#0032;UI - Simple&#0032;and&#0032;intuitive&#0032;UI&#0032;for&#0032;Faker&#0046;js | Product Hunt"
+                style="height: 47px;" height="47"
+              />
+            </a>
+          </div>
         </div>
       </div>
       <div data-aos="fade-down" class="flex justify-center md:justify-end order-1 md:order-2 mt-10 md:mt-0">
@@ -38,13 +44,13 @@
     </div>
   </generic-panel>
 
-  <generic-panel class="my-32">
+  <generic-panel class="my-24">
     <footer class="footer footer-center">
       <div class="items-center grid-flow-col">
         <i class="las la-code text-2xl"></i>
         <p class="text-lg">Made with <i class="las la-heart text-red-500"></i> by <a class="text-primary" href="https://twitter.com/jrtiquez" target="_blank">Joff Tiquez</a></p>
       </div>
-      <div class="grid-flow-col gap-4">
+      <div class="grid-flow-col">
         <a href="https://github.com/jofftiquez/faker-js-ui">
           <i class="lab la-github text-5xl"></i>
         </a>
