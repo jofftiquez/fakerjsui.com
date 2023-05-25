@@ -1,3 +1,3 @@
 # Faker.js UI Website
 
-![image](https://github.com/jofftiquez/fakerjsui.com/assets/8638243/c324d244-0bf4-4dee-808d-fc52f5c5b064)
+![Screen Shot 2023-05-25 at 12 41 31 AM](https://github.com/jofftiquez/fakerjsui.com/assets/8638243/785c2638-af34-4885-9b12-694545f611ed)
