@@ -13,7 +13,12 @@ export default defineNuxtConfig({
     'nuxt-headlessui',
     '@nuxt/image-edge',
     'nuxt-gtag',
+    '@nuxtjs/partytown',
   ],
+
+  partytown: {
+    forward: ['dataLayer.push'],
+  },
 
   nitro: {
     preset: 'firebase',

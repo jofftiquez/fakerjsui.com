@@ -44,7 +44,7 @@
     </div>
   </generic-panel>
 
-  <generic-panel class="my-24">
+  <generic-panel class="mt-24">
     <footer class="footer footer-center">
       <div class="items-center grid-flow-col">
         <i class="las la-code text-2xl"></i>
