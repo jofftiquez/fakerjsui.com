@@ -39,7 +39,7 @@
         </div>
       </div>
       <div data-aos="fade-down" class="flex justify-center md:justify-end order-1 md:order-2 mt-10 md:mt-0">
-        <img class="w-[200px] md:w-[300px]" src="../assets/images/faker-js-ui-logo.png" alt="Faker.js UI Logo">
+        <img class="w-[200px] md:w-[300px]" src="../assets/images/faker-js-ui-logo.webp" alt="Faker.js UI Logo">
       </div>
     </div>
   </generic-panel>
@@ -64,7 +64,7 @@ import { useHead } from '#app';
 import { definePageMeta } from '#imports';
 import { faker } from '@faker-js/faker';
 import GenericPanel from '~/components/commons/GenericPanel';
-import ogBanner from '../assets/images/fakerjsui-og-banner.jpg';
+import ogBanner from '../assets/images/fakerjsui-og-banner.webp';
 
 export default {
   components: {
