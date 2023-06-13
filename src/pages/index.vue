@@ -22,18 +22,15 @@
           >
             Start Faking 👀
           </a>
-          <div class="tooltip" data-tip="Coming soon to Chrome Extension!">
-            <button data-aos="fade-down" data-aos-delay="600" class="btn btn-outline btn-disabled btn-block">
+          <div class="tooltip" data-tip="Now available Chrome Extension!">
+            <a
+              data-aos="fade-down"
+              data-aos-delay="600"
+              class="btn btn-primary btn-outline"
+              href="https://chrome.google.com/webstore/detail/fakerjs-ui/onahjokmphbfmdihclgeehajfnpkpaja"
+              target="_blank"
+            >
               Download <i class="lab la-chrome text-2xl ml-2"></i>
-            </button>
-          </div>
-          <div class="flex justify-center">
-            <a data-aos="fade-down" data-aos-delay="800" href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
-              <img
-                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=396136&theme=neutral"
-                alt="Faker&#0046;js&#0032;UI - Simple&#0032;and&#0032;intuitive&#0032;UI&#0032;for&#0032;Faker&#0046;js | Product Hunt"
-                style="height: 47px;" height="47"
-              />
             </a>
           </div>
         </div>
@@ -44,13 +41,20 @@
     </div>
   </generic-panel>
 
-  <generic-panel class="mt-24">
+  <generic-panel class="mt-20 pb-20">
     <footer class="footer footer-center">
       <div class="items-center grid-flow-col">
         <i class="las la-code text-2xl"></i>
-        <p class="text-lg">Made with <i class="las la-heart text-red-500"></i> by <a class="text-primary" href="https://twitter.com/jrtiquez" target="_blank">Joff Tiquez</a></p>
+        <span class="text-lg">Made with <i class="las la-heart text-red-500"></i> by <a class="text-primary" href="https://twitter.com/jrtiquez" target="_blank">Joff Tiquez</a></span>
       </div>
       <div class="grid-flow-col">
+        <a href="https://www.producthunt.com/posts/faker-js-ui?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-faker&#0045;js&#0045;ui" target="_blank">
+          <img
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=396136&theme=neutral"
+            alt="Faker&#0046;js&#0032;UI - Simple&#0032;and&#0032;intuitive&#0032;UI&#0032;for&#0032;Faker&#0046;js | Product Hunt"
+            style="height: 47px;" height="47"
+          />
+        </a>
         <a href="https://github.com/jofftiquez/faker-js-ui">
           <i class="lab la-github text-5xl"></i>
         </a>
