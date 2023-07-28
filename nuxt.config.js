@@ -59,6 +59,11 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css',
         },
+        {
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6835309878758776',
+          async: true,
+          crossorigin: 'anonymous',
+        },
       ],
       // meta: [
       //   {
